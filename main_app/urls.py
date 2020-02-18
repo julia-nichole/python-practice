@@ -1,4 +1,6 @@
-from django import admin 
-## Add the include function to the import
+from django.urls import path
+from . import views
 
-from django.urls import path, include 
+urlpatterns = [
+
+]
